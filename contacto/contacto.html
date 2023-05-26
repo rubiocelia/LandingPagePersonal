@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacta conmigo</title>
+</head>
+
+<body class="contactobody">
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">Celia Rubio</a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="../quienSoy/quienSoy.html">¿Quién soy?</a></li>
+                <li><a href="../cv/cv.html">CV</a></li>
+                <li><a href="../proyectos/proyectos.html">PROYECTOS DESTACADOS</a></li>
+                <li><a href="../contacto/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+
+        <div class="contacta">
+
+            <h2 class="mainTitulo">¡Contacta conmigo!</h2>
+            <p class="mainP">Si deseas obtener más información sobre mí y mi formación, por favor, déjame tus datos de contacto y me pondré en contacto contigo.</p>
+
+            <form class="mainFormulario" action="mailto:raul.rodriguez@universidadeuropea.es" method="post">
+
+                <input type="text" placeholder="Nombre" class="mainFormul" required>
+
+                <input type="email" placeholder="Correo electrónico" class="mainFormul" required>
+
+                <input type="tel" placeholder="Teléfono" class="mainFormul" required>
+
+                <input type="text" placeholder="Empresa/Centro" class="mainFormul" required>
+
+                <textarea placeholder="Comentarios..." cols="60" rows="4" class="mainFormul"></textarea>
+
+                </textarea>
+                <input type="submit" value="Enviar" class="mainFormul mainEnviar">
+                <input type="reset" value="Borrar" class="mainFormul mainEnviar">
+            </form>
+        </div>
+
+    </section>
+</body>
+
+</html>
